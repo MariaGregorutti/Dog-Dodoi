@@ -5,7 +5,7 @@
     --cor--branco: #ffffff;
     --cor--rosa-shoque: #EA1C81;
     --cor--cinza: #424E66;
-    --cor-azul-bebe: #D8F1FB;
+    --cor--bg-azul: #E1E5F7
 }
 
 
@@ -21,20 +21,68 @@
     display: flex;
 }
 
+/* Descrição */
 .descritivo{
-    background-color: var(--cor-azul-bebe);
+    background-color: var(--cor--bg-azul);
+    padding: 60px;
+}
+
+.img-cachorro{
+    margin-left: 100px;
+}
+
+.texto-f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 350px;
 }
 
 .texto-f .principal{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--cor--rosa-shoque);
 }
+<<<<<<< Updated upstream
 
 /* Serviços */
 .servicos {
     background-color: var(--cor-azul-bebe);
     padding: 30px;
+=======
+/* Beneficios */
+
+.titulo-b {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-b h3 {
+    color: var(--cor--rosa-shoque);
+    font-size: 2.5em;
+}
+
+.titulo-b p {
+    color: var(--cor--cinza);
+    margin-top: 10px;
+    font-size: 1.5em;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.suporte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/*  */
+.servicos {
+    background-color: var(--cor--azul-bebe);
+>>>>>>> Stashed changes
 }
 
 .servicos h3 {
