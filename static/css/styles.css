@@ -44,24 +44,36 @@
     font-weight: 700;
     color: var(--cor--rosa-shoque);
 }
+/* Beneficios */
 
+.titulo-b {
+    text-align: center;
+    padding: 20px;
+}
 
-/* Serviços */
+.titulo-b h3 {
+    color: var(--cor--rosa-shoque);
+    font-size: 2.5em;
+}
+
+.titulo-b p {
+    color: var(--cor--cinza);
+    margin-top: 10px;
+    font-size: 1.5em;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.suporte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/*  */
 .servicos {
-    background-color: var(--cor-azul-bebe);
-    padding: 30px;
-}
-/* Beneficios */
-
-.titulo-b {
-    text-align: center;
-    padding: 20px;
-}
-/* Beneficios */
-
-.titulo-b {
-    text-align: center;
-    padding: 20px;
+    background-color: var(--cor--azul-bebe);
 }
 
 .titulo-b h3 {
