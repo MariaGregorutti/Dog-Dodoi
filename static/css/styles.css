@@ -1,0 +1,14 @@
+:root{
+    --cor--preto:#000000;
+    --cor--branco:#ffffff;
+    --cor--rosa-shoque:#EA1C81;
+    --cor--cinza:#424E66;
+    --cor-azul-bebe:#D8F1FB;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: ;
+}
