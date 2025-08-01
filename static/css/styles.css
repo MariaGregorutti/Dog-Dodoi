@@ -30,3 +30,24 @@
     font-weight: 700;
     color: var(--cor--rosa-shoque);
 }
+.servicos {
+    background-color: var(--cor-azul-bebe);
+}
+
+.servicos h2 {
+    text-align: center;
+    padding: 20px;
+    color: var(--cor--rosa-shoque);
+}
+
+.servicos p {
+    text-align: center;
+    padding: 10px;
+    color: var(--cor--cinza);
+}
+
+.img-servicos {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
