@@ -1,3 +1,6 @@
+
+
+
 :root{
     --cor--preto:#000000;
     --cor--branco:#ffffff;
@@ -10,5 +13,5 @@
 *{
     margin: 0;
     padding: 0;
-    color: ;
+    color: var(--cor--preto);
 }
