@@ -5,6 +5,7 @@
     --cor--branco: #ffffff;
     --cor--rosa-shoque: #EA1C81;
     --cor--cinza: #424E66;
+    --cor--azul-bebe: #D8F1FB;
     --cor--bg-azul: #E1E5F7
 }
 
@@ -13,14 +14,12 @@
     margin: 0;
     padding: 0;
     color: var(--cor--preto);
-
     font-family: "Roboto", sans-serif;
 }
 
 .d-flex {
     display: flex;
 }
-
 /* Descrição */
 .descritivo{
     background-color: var(--cor--bg-azul);
