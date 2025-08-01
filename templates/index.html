@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="container d-flex between">
+        <div class="d-flex between">
             <img src="" alt="Logo">
             <nav>
                 <a href="">Início</a>
@@ -56,10 +56,10 @@
             </div>
         </section>
         <section class="servicos">
-            <h2>Melhores Serviços</h2>
+            <h3>Melhores Serviços</h3>
             <p>Cada membro de nossa equipe passou por <br>
                 treinamento para se tornar um especialista.</p>
-            <div class="img-servicos">
+            <div class="img-servicos d-flex">
                 <img src="../static/img/Vacinas.png" alt="Vacinas">
                 <img src="../static/img/Cirurgia.png" alt="Cirurgia">
                 <img src="../static/img/Vacinas (1).png" alt="Nutrição">
@@ -67,16 +67,23 @@
             </div>
         </section>
         <section class="avaliacao">
-            <h2>Marque uma avaliação gratuita</h2>
+            <h3>Marque uma avaliação gratuita</h3>
             <p>Consulte nossos veterinários profissionais hoje.</p>
-            <form>
+            <div class="formulario">
+            <form class="d-flex between">
+                <div>
                 <label for="nome">Seu Nome</label>
                 <input type="text" id="nome" name="nome" required>
-                
+                </div>
+                <div>
                 <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" required>
-                
-                <button type="submit">Quero uma avaliação</button>
+                </div>
+            </div>
+                <div class="botao">
+                    <button type="submit">Quero uma avaliação</button>
+                </div>
+              
             </form>
         </section>
     </main>
