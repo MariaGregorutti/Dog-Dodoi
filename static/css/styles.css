@@ -223,15 +223,13 @@ input {
     margin-bottom: 20px;
     border: 0.5px solid var(--cor--cinza);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .avaliacao label {
     display: block;
     margin-bottom: 5px;
     color: var(--cor--cinza);
-    
 }
 
 .avaliacao button {
@@ -268,7 +266,6 @@ input {
   margin-top: -20px;
 }
 
-
 /* Home */
 
 .home {
@@ -286,12 +283,14 @@ input {
     font-size: 2.2em;
     margin-bottom: 20px;
 }
+
 .home p {
     color: var(--cor--cinza);
     font-size: 1em;
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 .home button{
     background-color: var(--cor--rosa-shoque);
     color: var(--cor--branco);
