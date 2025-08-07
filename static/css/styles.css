@@ -130,14 +130,15 @@
 
 .servicos h3 {
     text-align: center;
-    padding: 20px;
+    padding-top: 60px;
+  
     color: var(--cor--rosa-shoque);
     font-size: 1.7em;
 }
 
 .servicos p {
     text-align: center;
-    padding: 10px;
+    padding-top: 30px;
     color: var(--cor--cinza);
     padding-bottom: 40px;
     font-style: light;
@@ -148,10 +149,17 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 /* Avaliação */
+
+.campos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .avaliacao {
     padding: 30px;
@@ -168,7 +176,7 @@
     text-align: center;
     padding: 10px;
     color: var(--cor--cinza);
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 }
 
 .formulario {
@@ -183,9 +191,9 @@ input {
     width: 20vw;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid var(--cor--cinza);
+    border: 0.5px solid var(--cor--cinza);
     border-radius: 10px;
-    box-shadow: var(--cor--preto);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
     
 }
 
@@ -203,6 +211,7 @@ input {
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    font-size: 1em;
 }
 
 .botao {
