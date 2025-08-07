@@ -128,17 +128,21 @@
 
 }
 
+
+
 .titulo-b h3 {
     color: var(--cor--rosa-shoque);
-    font-size: 2.5em;
+    font-size: 2.2em;
+    margin-top: 20px;
 }
 
 .titulo-b p {
     color: var(--cor--cinza);
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-left: 450px;
     margin-right: 450px;
+    margin-bottom: 15px;
 }
 
 .suporte{
