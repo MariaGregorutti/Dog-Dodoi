@@ -225,15 +225,13 @@ input {
     margin-bottom: 20px;
     border: 0.5px solid var(--cor--cinza);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .avaliacao label {
     display: block;
     margin-bottom: 5px;
     color: var(--cor--cinza);
-    
 }
 
 .avaliacao button {
@@ -270,7 +268,6 @@ input {
   margin-top: -20px;
 }
 
-
 /* Home */
 
 .home {
@@ -288,12 +285,14 @@ input {
     font-size: 2.2em;
     margin-bottom: 20px;
 }
+
 .home p {
     color: var(--cor--cinza);
     font-size: 1em;
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 .home button{
     background-color: var(--cor--rosa-shoque);
     color: var(--cor--branco);
@@ -343,3 +342,34 @@ input {
 .menu-letras {
     margin-top: 10px;
 }
+
+
+h4{
+    color: #EA1C81;
+}
+
+.quem-somos {
+    padding: 90px 0px;
+    gap: 100px;
+    max-width: 1000;
+}
+.quem-somos h4{
+    margin-bottom: 20px;
+}
+.quem-somos p{
+    color: var(--cor--cinza);
+}
+.textobv2 {
+    margin-top: 30px;
+    width: 40%;
+}
+
+.textobv{
+    width: 30%;
+    margin-left: 100px;
+}
+
+.destaque{
+    color: #FF0004;    
+}
+
