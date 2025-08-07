@@ -50,7 +50,10 @@
         align-items: center;
     }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     .descritivo {
             display: flex;
             flex-direction: column;
@@ -78,5 +81,9 @@
         align-items: center;
         font-size: 1em;
      }
+<<<<<<< Updated upstream
 }
 
+=======
+}
+>>>>>>> Stashed changes
