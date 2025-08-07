@@ -46,6 +46,28 @@
     }
 
     .quem-somos .d-flex {
+    }
+}
+
+/* Responsivo 375 */
+@media (max-width: 376px) {
+    header .menu {
+        display: none;}
+
+    .descritivo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-cachorro {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .ajuste {
         flex-direction: column;
         align-items: center;
     }
@@ -79,3 +101,19 @@
         font-size: 1em;
      }
 
+    .titulo-b p{
+        width: 100%;
+        font-size: 1.2em;
+        margin: 10px auto;
+    }
+
+    .home h1{
+        font-size: 1.4em;
+    }
+
+    .home p{
+        font-size: 1.2em;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
