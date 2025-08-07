@@ -247,6 +247,41 @@ input {
     padding-top: 20px;
 }
 
+
+/* Home */
+
+.home {
+    background-image: url(../img/Banner\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    height: 400px;
+}
+
+.home h1 {
+    color: var(--cor--rosa-shoque);
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+.home p {
+    color: var(--cor--cinza);
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.home button{
+    background-color: var(--cor--rosa-shoque);
+    color: var(--cor--branco);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
 /* GREGA */
 
 .fundo-menu {
