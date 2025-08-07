@@ -15,6 +15,7 @@
     padding: 0;
     color: var(--cor--preto);
     font-family: "Roboto", sans-serif;
+    text-decoration: none;
 }
 
 .d-flex {
@@ -243,4 +244,43 @@ input {
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+}
+
+/* GREGA */
+
+.fundo-menu {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #D8F1FB;
+}
+
+.fundo-menu img {
+    width: 50px; 
+    margin-right: 20px; 
+}
+
+.menu .d-flex {
+    display: flex;
+    gap: 15px; 
+}
+
+.botao-menu {
+    background-color: #EA1C81;
+    padding: 8px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    color: var(--cor--branco);
+    font-size: 15px;
+    margin-left: 20px;
+    
+}
+
+.menu {
+    margin-left: 680px;
+}
+
+.menu-letras {
+    margin-top: 10px;
 }
