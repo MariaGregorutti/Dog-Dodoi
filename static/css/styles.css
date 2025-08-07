@@ -260,3 +260,32 @@ input {
 .menu-letras {
     margin-top: 10px;
 }
+
+h4{
+    color: #EA1C81;
+}
+
+.quem-somos {
+    padding: 90px 0px;
+    gap: 100px;
+    max-width: 1000;
+}
+.quem-somos h4{
+    margin-bottom: 20px;
+}
+.quem-somos p{
+    color: var(--cor--cinza);
+}
+.textobv2 {
+    margin-top: 30px;
+    width: 40%;
+}
+
+.textobv{
+    width: 30%;
+    margin-left: 100px;
+}
+
+.destaque{
+    color: #FF0004;    
+}
