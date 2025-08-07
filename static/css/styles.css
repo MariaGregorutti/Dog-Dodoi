@@ -38,12 +38,15 @@
     align-items: center;
     margin-left: 100px;
     margin-right: 350px;
+    margin-left: 80px;
+    margin-right: 100px;
 }
 
 .texto-f .principal{
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--cor--rosa-shoque);
+    margin-bottom: 20px;
 }
 /* Beneficios */
 
@@ -71,6 +74,28 @@
     align-items: center;
     margin: 20px;
 }
+.t-nome{
+    color: var(--cor--rosa-shoque);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+    padding: 35px !important;
+}
+
+.campos-b{
+    text-align: center;
+    margin: 0px 80px 0px 80px;
+}
+
+.texto-p{
+    color: var(--cor--cinza);
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
+
+.texto-p.e{
+    padding-bottom: 0px;
+}
 
 /*  */
 .servicos {
@@ -103,17 +128,21 @@
 
 }
 
+
+
 .titulo-b h3 {
     color: var(--cor--rosa-shoque);
-    font-size: 2.5em;
+    font-size: 2.2em;
+    margin-top: 20px;
 }
 
 .titulo-b p {
     color: var(--cor--cinza);
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-left: 450px;
     margin-right: 450px;
+    margin-bottom: 15px;
 }
 
 .suporte{
@@ -222,6 +251,58 @@ input {
     padding-top: 20px;
 }
 
+.rodape {
+    background-color: #D8F1FB82;
+    padding: 30px;
+}
+
+.rodape .logo img {
+  height: 50px;
+  padding-left: 80px;
+}
+
+.rodape .contato {
+  text-align: right;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: -20px;
+}
+
+
+/* Home */
+
+.home {
+    background-image: url(../img/Banner\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    height: 400px;
+}
+
+.home h1 {
+    color: var(--cor--rosa-shoque);
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+.home p {
+    color: var(--cor--cinza);
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.home button{
+    background-color: var(--cor--rosa-shoque);
+    color: var(--cor--branco);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
 /* GREGA */
 
 .fundo-menu {
@@ -261,6 +342,7 @@ input {
     margin-top: 10px;
 }
 
+
 h4{
     color: #EA1C81;
 }
@@ -289,3 +371,4 @@ h4{
 .destaque{
     color: #FF0004;    
 }
+
