@@ -73,6 +73,7 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
+}
 .t-nome{
     color: var(--cor--rosa-shoque);
     font-size: 1.5em;
