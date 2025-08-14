@@ -2,7 +2,7 @@
 @media (max-width: 769px) {
     header .menu {
         display: none;
-    } 
+    }
 
     .img-cachorro {
         width: 16em;
@@ -10,7 +10,7 @@
         margin: 0 auto;
     }
 
-    .texto-f .principal{
+    .texto-f .principal {
         font-weight: 10em;
     }
 
@@ -18,6 +18,7 @@
         width: 20em;
         margin-left: 11em;
     }
+
 
     .campo-b img {   
         
@@ -68,47 +69,115 @@
         width: 100%;
         height: auto;
         margin: 0 auto;
+
+    .textobv2 p {
+        margin-left: -90px;
+        padding: 40px;
+        margin-top: -50px;
+
     }
 
+   
     .ajuste {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        }
+
+    .campos-b {
+        width: 100%; 
+        margin: 10px 0; 
+        text-align: center; 
     }
 
+    .campos-b img {
+        max-width: 100%; 
+        height: auto; 
+    }
 
-    .descritivo {
+    .img-servicos {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 15px; 
+    }
+
+    .img-servicos img {
+        width: 33%; 
+        height: auto; 
+        max-width: 100%; 
+        border-radius: 8px; 
+    }
+
+    .servicos p {
+        margin-top: -20px;
+    }
+
+    /* 425px */
+    @media (max-width: 426px) {
+
+        header .menu {
+            display: none;
+            margin-left: 0;
+        }
+
+        .home {
+            background-image: url('../img/Banner\ \(1\).png');
+            height: 200px;
+            background-position: center;
+        }
+
+        .home h1 {
+
+            font-size: 2em;
+        }
+
+        .home button {
+            padding: 10px 30px;
+            font-size: 0.9em;
+        }
+
+        .quem-somos .d-flex {}
+    }
+
+    /* Responsivo 375 */
+    @media (max-width: 376px) {
+        header .menu {
+            display: none;
+        }
+
+        .descritivo {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-    }
-    
-    .img-cachorro {
+        }
+
+        .img-cachorro {
             width: 100%;
             height: auto;
             margin: 0 auto;
-     }
+        }
 
-     .principal {
-        text-align: center;
-     }
+        .ajuste {
+            flex-direction: column;
+            align-items: center;
+        }
 
-     .beneficios .d-flex {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-     }
 
-     .titulo-b p {
-        align-items: center;
-        font-size: 1em;
-     }
+        .descritivo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
 
-    .titulo-b p{
-        width: 100%;
-        font-size: 1.2em;
-        margin: 10px auto;
-    }
+        .img-cachorro {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
 
     .home h1{
         font-size: 1.4em;
@@ -194,3 +263,39 @@
         height: auto;
     }
 }
+        .principal {
+            text-align: center;
+        }
+
+        .beneficios {
+            width: 100%;
+        }
+
+        .d-flex {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .titulo-b p {
+            align-items: center;
+            font-size: 1em;
+        }
+
+        .titulo-b p {
+            width: 100%;
+            font-size: 1.2em;
+            margin: 10px auto;
+        }
+
+        .home h1 {
+            font-size: 1.4em;
+        }
+
+        .home p {
+            font-size: 1.2em;
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
