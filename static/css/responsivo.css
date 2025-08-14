@@ -1,8 +1,9 @@
 /* 768 */
 @media (max-width: 769px) {
-    header .menu {
+
+  header .menu {
         display: none;
-    } 
+    }
 
     .img-cachorro {
         width: 16em;
@@ -10,17 +11,53 @@
         margin: 0 auto;
     }
 
-    .texto-f .principal{
+    .texto-f .principal {
         font-weight: 10em;
     }
 
     .titulo-b p {
         width: 20em;
-        margin-left: 11em;
     }
 
-    .campo-b img {   
-        
+    .textobv2 p {
+        margin-left: -90px;
+        padding: 40px;
+        margin-top: -50px;
+    }
+
+    .ajuste {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+    .campos-b {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .campos-b img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .img-servicos img {
+        width: 33%;
+        height: auto;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .servicos p {
+        margin-top: -20px;
     }
 }
 
@@ -44,6 +81,85 @@
         padding: 10px 30px;
         font-size: 0.9em;
     }
+
+
+    .beneficios .d-flex{
+        display: block;
+    }
+
+    .titulo-b p {
+        margin: 0 auto;
+        font-size: 0.8em;
+    }
+
+    .titulo-b h3{
+        font-size: 1.8em;
+    }
+
+    .descritivo {
+        display: block;
+        text-align: center;
+    }
+
+    .descritivo p {
+        font-size: small;
+    }
+
+    .descritivo .principal {
+        font-size: 1.2em;
+    }
+
+    .texto-f{
+        margin: 0;
+    }
+
+    .t-nome{
+        padding: 0 !important;
+    }
+
+    .texto-p{
+        font-size: 0.9em;
+        width: 55%;
+    }
+
+    .quem-somos {
+        display: block;
+    }
+
+    .textobv {
+        font-size: 0.9em;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .textobv2 {
+        font-size: 0.9em;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    .rodape {
+        display: block;
+    }
+    
+    .rodape .contato {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .rodape .logo img {
+        padding-left: 152px;
+        text-align: center;
+    }
+
+    .campos{
+        display: block;
+    }
+
+    .campos input {
+        width: 80vw;
+    };
 }
 
 /* Responsivo 375 */

@@ -58,30 +58,6 @@
 .titulo-b h3 {
     color: var(--cor--rosa-shoque);
     font-size: 2.5em;
-}
-
-.titulo-b p {
-    color: var(--cor--cinza);
-    font-size: 1.5em;
-    margin: 18px auto;
-    width: 310px;
-}
-
-.suporte{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-}
-.t-nome{
-    color: var(--cor--rosa-shoque);
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 10px;
-    padding: 35px !important;
-}
-
-.campos-b{
     text-align: center;
     flex: 1;
 }
@@ -111,10 +87,9 @@
 
 .titulo-b p {
     color: var(--cor--cinza);
-    margin-top: 10px;
     font-size: 1.5em;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin: 18px auto;
+    width: 310px;
 }
 
 .suporte{
@@ -123,28 +98,17 @@
     align-items: center;
     margin: 20px;
 }
-
-/*  */
-.servicos {
-    background-color: var(--cor--azul-bebe);
-
-}
-
-
-
-.titulo-b h3 {
+.t-nome{
     color: var(--cor--rosa-shoque);
-    font-size: 2.2em;
-    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+    padding: 35px !important;
 }
 
-.titulo-b p {
-    color: var(--cor--cinza);
-    margin-top: 10px;
-    font-size: 1.1em;
-    margin-left: 450px;
-    margin-right: 450px;
-    margin-bottom: 15px;
+.campos-b{
+    text-align: center;
+    flex: 1;
 }
 
 .suporte{
